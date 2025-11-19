@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ndeye Moda Ndongo — Contact</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Ndeye Moda Ndongo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projets.html">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="competences.html">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="realisations.html">Réalisations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact
+              <span class="visually-hidden">(actuel)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <div class="container px-5 my-5">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Contact</span></h1>
+    </div>
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-8 col-xl-6">
+        <!-- Contact Card -->
+        <div class="card shadow border-0 rounded-4 mb-5">
+          <div class="card-body p-5">
+            <form action="mailto:enn1340@umoncton.ca" method="post" enctype="text/plain">
+              <div class="mb-4">
+                <label class="form-label fw-bold">Nom</label>
+                <input type="text" class="form-control rounded-3" placeholder="Ex: Ndeye Moda Ndongo" name="Nom" required>
+              </div>
+              <div class="mb-4">
+                <label class="form-label fw-bold">Email</label>
+                <input type="email" class="form-control rounded-3" placeholder="Ex: ndeye.moda@example.com" name="Email" required>
+              </div>
+              <div class="mb-4">
+                <label class="form-label fw-bold">Message</label>
+                <textarea class="form-control rounded-3" rows="5" name="Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-100 rounded-3 py-3 fw-bold">
+                <i class="bi bi-send me-2"></i>Envoyer le message
+              </button>
+            </form>
+
+            <!-- Contact Links -->
+            <div class="text-center mt-5 pt-4 border-top">
+              <h4 class="fw-bolder mb-3">Autres moyens de contact</h4>
+              <div class="d-flex justify-content-center gap-4">
+                <a href="mailto:enn1340@umoncton.ca" class="btn btn-outline-primary rounded-3 px-4">
+                  <i class="bi bi-envelope me-2"></i>Email
+                </a>
+                <a href="https://github.com/Moda04crypto" target="_blank" class="btn btn-outline-primary rounded-3 px-4">
+                  <i class="bi bi-github me-2"></i>GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto"><div class="small m-0">Copyright &copy; Ndeye Moda Ndongo 2025</div></div>
+        <div class="col-auto">
+          <a class="small" href="#!">Privacy</a>
+          <span class="mx-1">&middot;</span>
+          <a class="small" href="#!">Terms</a>
+          <span class="mx-1">&middot;</span>
+          <a class="small" href="#!">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
